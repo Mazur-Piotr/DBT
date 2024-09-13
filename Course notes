@@ -1,0 +1,39 @@
+# DBT
+
+## **DBT Fundamentals**
+
+Who is an Analytics Engineer?
+
+- The AE owns the Transformation of Raw Data up to the BI Layer
+
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/f8113da9-9b0b-4f34-9283-cd1194f85484/bf495c19-085c-404d-80ce-096652928468/image.png)
+
+## **Review**
+
+**Traditional Data Teams**
+
+- DE are responsible for maintaining data infrastructure and the ETL processs for creating tables and views
+- Data analysts focus on querying tables and views to drive business insights for stakeholders
+
+**ETL and ELT**
+
+- ETL (extract transform load) is the proecess of creating new databes objects by extracting data from multiple data sources, transofrming it on a local third party machine, and loading the transofrmed data into a data warehouse
+- ELT (extract load transform) is a more recent process of creating new database objects by first extracting and loading raw data into a data warehouse and the transforming that data directly in the warehouse
+
+**Analytics Engineering** 
+
+- AE focus on the transformation of raw data into transformed data that is ready for analysis. This new role on the data team changes the responsibilities of data engineers and data analysts
+- DE can focus on larger data archiecture and the EL in ELT
+- DA can focus on insights and dashboard work using the transformed data
+- Note: At a small company, a data team of one may own all three of these roles and responsibilities. As your team grows, the lines between these roles will remain blurry
+
+**dbt**
+
+- dbt empowers data teams to leverage software engineering principles for transforming data
+- the focus of this course is to build AE mindset and dbt skills to give you more leverage in your work
+
+**Notes:**
+
+- YAML files are used for configuring generic tests
+
+https://docs.getdbt.com/guides/redshift?step=2
